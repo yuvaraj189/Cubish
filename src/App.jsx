@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/landing/LandingSectionOne';
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
-import Register from './components/Register/Register';
+import Register from './components/Register/register';
 import Plans from './components/plan/plan';
 import About from './components/about/about';
 import Purchases from './components/purchases/purchases';
