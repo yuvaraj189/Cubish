@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/landing/LandingSectionOne';
 import Navbar from './components/Navbar/Navbar';
 import Login from './components/Login/Login';
-import Register from './components/Register/Register'
+{/*import Register from './components/Register/Register'*/}y
 import Plans from './components/plan/plan';
 import About from './components/about/about';
 import Purchases from './components/purchases/purchases';
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
+         {/* <Route path="/register" element={<Register />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/plans" element={<Plans />} />
           
